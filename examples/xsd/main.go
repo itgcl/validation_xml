@@ -1,15 +1,10 @@
 package main
 
 import (
-	//"fmt"
-	"os"
-	"path/filepath"
-
-	//"path/filepath"
-	//"strconv"
+	"validation-xml/examples/xsd/validation"
 )
 
 func main()  {
-	ValidationByXSD("")
+	validation.ValidationByXSDFile("")
 }
 
